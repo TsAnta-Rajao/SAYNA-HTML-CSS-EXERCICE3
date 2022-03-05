@@ -150,7 +150,6 @@ nav .navbar {
 
 /* ******************************TESTED RESPONSIVE***************************** */
 
-.tested,
-.responsive:nth-child(2) {
+{
     padding-bottom: 50%;
 }
