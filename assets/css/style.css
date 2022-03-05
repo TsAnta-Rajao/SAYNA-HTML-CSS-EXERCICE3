@@ -1,0 +1,156 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900");
+html {
+    scroll-behavior: smooth;
+}
+
+reference couleurs {
+    color: #FFFFFF #27242b #3d9f96 #322f36 #f7f7f7 #f9f9f9 #ababab #7e7e7e #27242b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+
+/* *************GENERAUX****************** */
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    color: #7e7e7e;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.black {
+    color: #27242b;
+}
+
+.open-sans {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.helvetica {
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+}
+
+
+/* *********************************HEADER************************* */
+
+header {
+    background: url(../img/header_bg.jpg);
+    color: #7e7e7e;
+}
+
+nav .navbar {
+    position: fixed;
+}
+
+.navbar a {
+    color: #FFFFFF;
+}
+
+.nav-item {
+    padding: 5%;
+}
+
+.navbar-brand img {
+    width: 25%;
+}
+
+.navbar-right {
+    width: 15%;
+}
+
+.navbar-right a {
+    text-decoration: underline;
+    color: #3d9f96;
+}
+
+.subtitle {
+    color: #3d9f96;
+}
+
+.btn-success {
+    background-color: #3d9f96;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 2% 7%;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: rgba(61, 159, 150, 0.9);
+    border-color: none;
+}
+
+.macbook {
+    width: inherit;
+}
+
+
+/* ******************************SOCIAL SECTION***************************** */
+
+.social-section {
+    background-color: #f7f7f7;
+}
+
+.social-link {
+    padding: 0 2%;
+    width: 8%;
+}
+
+.social-title {
+    color: #3d9f96;
+    font-weight: 700;
+}
+
+
+/* ******************************CHECK OUR NEW APP***************************** */
+
+
+/* ******************************AWESOMENESS 3 COLUMNS***************************** */
+
+.awesome-bg {
+    background: url(../img/map_bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+}
+
+
+/* ******************************AVATAR AND CITATION***************************** */
+
+.citation {
+    background: url(../img/seperator1-.jpg);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+}
+
+.citation cite {
+    color: #fff;
+    font-style: normal;
+}
+
+
+/* ******************************SCREENSHOTS***************************** */
+
+.screenshot {
+    background: #f7f7f7;
+}
+
+
+/* ******************************TESTED RESPONSIVE***************************** */
+
+.tested,
+.responsive:nth-child(2) {
+    padding-bottom: 50%;
+}
