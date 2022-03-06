@@ -10,7 +10,6 @@ reference couleurs {
 * {
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
 }
 
 
@@ -19,6 +18,10 @@ reference couleurs {
 body {
     font-family: "Raleway", Arial, sans-serif;
     color: #7e7e7e;
+}
+
+h4 {
+    color: #27242b;
 }
 
 .thin {
@@ -44,13 +47,15 @@ body {
 
 /* *********************************HEADER************************* */
 
-header {
+header,
+.navbar {
     background: url(../img/header_bg.jpg);
     color: #7e7e7e;
 }
 
-nav .navbar {
-    position: fixed;
+.navbar {
+    border-bottom: #7e7e7e 1px solid;
+    height: 10vh;
 }
 
 .navbar a {
@@ -58,7 +63,8 @@ nav .navbar {
 }
 
 .nav-item {
-    padding: 5%;
+    padding: 0 20%;
+    font-weight: 700;
 }
 
 .navbar-brand img {
@@ -66,7 +72,8 @@ nav .navbar {
 }
 
 .navbar-right {
-    width: 15%;
+    width: 25%;
+    font-weight: 800;
 }
 
 .navbar-right a {
@@ -81,6 +88,7 @@ nav .navbar {
 .btn-success {
     background-color: #3d9f96;
     border-radius: 50px;
+    font-weight: 500;
     color: #FFFFFF;
     padding: 2% 7%;
 }
@@ -115,6 +123,10 @@ nav .navbar {
 
 /* ******************************CHECK OUR NEW APP***************************** */
 
+.check-app {
+    font-size: 1.2em;
+}
+
 
 /* ******************************AWESOMENESS 3 COLUMNS***************************** */
 
@@ -123,6 +135,15 @@ nav .navbar {
     background-position: center;
     background-size: cover;
     height: fit-content;
+}
+
+.awesome-bg h4 {
+    font-weight: 700;
+}
+
+.awesome-bg p {
+    font-size: 125%;
+    font-weight: 400;
 }
 
 
@@ -149,10 +170,6 @@ nav .navbar {
 
 
 /* ******************************TESTED RESPONSIVE***************************** */
-
-{
-    padding-bottom: 50%;
-}
 
 
 /* ******************************FOOTER***************************** */
@@ -191,6 +208,10 @@ ul {
 
 
 /* **********************************FOOTER BOTTOM**************************** */
+
+.footer-bottom {
+    background: #FFFFFF;
+}
 
 .footer-icons a {
     padding: 0 2%;
