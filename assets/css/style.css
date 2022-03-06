@@ -158,9 +158,44 @@ nav .navbar {
 /* ******************************FOOTER***************************** */
 
 .footer {
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.footer-top {
+    background: #f7f7f7;
+    line-height: 2em;
+}
+
+.info,
+.contact {
+    padding: 3% 5%;
 }
 
 .logo-footer {
     width: 100%;
+    padding-bottom: 3%;
+}
+
+h6 {
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.info a,
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #7e7e7e;
+}
+
+
+/* **********************************FOOTER BOTTOM**************************** */
+
+.footer-icons a {
+    padding: 0 2%;
+}
+
+.footer-icons img {
+    width: 5%;
 }
